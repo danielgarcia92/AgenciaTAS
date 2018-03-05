@@ -1,0 +1,64 @@
+/* Base Application Styles */
+body {
+  color: #fff;
+  background: #222;
+}
+
+a:-webkit-any-link {
+  text-decoration: none !important;
+}
+
+.index img {
+  margin: 40px auto;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+}
+
+.index .notice {
+  margin: 20px auto;
+  padding: 15px 0;
+  text-align: center;
+  border: 1px solid #000;
+  border-width: 1px 0;
+  background: #666;
+}
+
+.home {
+  padding: 5em;
+  margin: 0;
+  height: 100%;
+}
+
+.sign {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 20em;
+  padding-right: 20em;
+}
+
+.consult {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+
+.vuelos-enter {
+  opacity: 0.01;
+}
+
+.vuelos-enter.vuelos-enter-active {
+  opacity: 1;
+  transition: opacity 800ms ease-in;
+}
+
+.vuelos-leave {
+  opacity: 1;
+}
+
+.vuelos-leave.vuelos-leave-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}
