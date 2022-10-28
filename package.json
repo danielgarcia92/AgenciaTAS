@@ -42,7 +42,7 @@
     "file-loader": "^0.9.0",
     "glob": "^7.0.0",
     "isparta-instrumenter-loader": "^1.0.0",
-    "karma": "^1.0.0",
+    "karma": "^6.4.1",
     "karma-chai": "^0.1.0",
     "karma-coverage": "^1.0.0",
     "karma-mocha": "^1.0.0",
@@ -75,6 +75,6 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "reflux": "^6.4.1",
-    "socket.io-client": "^2.0.4"
+    "socket.io-client": "^2.5.0"
   }
 }
